@@ -3,3 +3,4 @@ db.sqlite3
 wordcounter/__pycache__/
 wordcounter/wsgi.py
 wordcounter/settings.py
+static/
