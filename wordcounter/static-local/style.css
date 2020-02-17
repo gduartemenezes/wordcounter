@@ -1,3 +1,65 @@
-h1 {
-    color: green;
-}   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(49, 80, 80, 0.70);
+    color: rgb(218, 247, 218);
+    font-family: Heltica, Arial;
+    text-align: justify;
+    font-size: 18px;
+}
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 25px;
+    padding: 70px auto auto 70px; 
+   
+}
+
+.top {
+    height: 25%;
+    padding: 70px 20px 70px 10px;
+    text-align: center;
+    
+}
+
+.bottom{
+    height: 75%;
+    width: 1340px;
+    margin: 20px auto 20px auto;
+    border-top: 3px solid rgba(49, 80, 80, 0.9);    
+}
+
+.side-block{
+  
+    width: 40%;
+    float: left;
+    padding: 5px 20px 5px 10px;
+    border-left: 3px solid rgba(49, 80, 80, 0.9);
+}
+
+.main-text{
+ 
+    width: 60%;
+    float: left;
+    padding: 5px 20px 5px 10px;
+    
+    
+
+}
+
+.input{
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+.btn-input{
+    align-self: center;
+    margin-top: 20px;
+}

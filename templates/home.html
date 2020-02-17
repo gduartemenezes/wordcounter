@@ -13,13 +13,20 @@
   
 </head>
 <body>
-    <h1>Word Counter!</h1>
+    <div class="top">
+        
+        <h1>Word Counter!</h1> 
 
+    </div>
 
-    <form action="{% url 'count' %}">
-        <textarea name="fulltext" cols="40" rows="10"></textarea>
-        <br>
-        <input type='submit' value='count!'>
-    </form>
+    <div class="bottom">
+        <div class= "input">
+            <form action="{% url 'count' %}">
+            <textarea name="fulltext" cols="40" rows="10"></textarea>
+            <br>
+            <input type='submit' value='count!' class="btn-input">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
