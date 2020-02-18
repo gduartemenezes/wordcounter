@@ -29,3 +29,6 @@ def count(request):
     return render(request, 'count.html',
          {'fulltext' : fulltext, 'count' : len(wordcount),
           'sortedwords': sortedwords})
+
+def about(request):
+    return render(request, 'about.html')
